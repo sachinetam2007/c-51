@@ -1,0 +1,52 @@
+h1 {
+    color:aquamarine
+}
+.heading {
+    display:flex;
+    justify-content:space-between;
+}
+.grid {
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap
+
+}
+.footer {
+    display:flex;
+    justify-content:flex-end;
+    
+}
+body {
+    background-color: #808080;
+}
+
+.menu {
+    margin-right:50px;
+   
+}
+
+h1 {
+    margin-left: 30px;
+}
+
+.heading *{
+    border: solid;
+}
+
+.menu a {
+   margin: 20px;
+
+}
+
+.item p{
+    opacity:0;
+
+}
+.item:hover p{
+    opacity:1
+
+}
+
+.item :hover img{
+    opacity:0.33;
+}
